@@ -34,10 +34,10 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div className="h-screen bg-amber-100/50 flex flex-col items-center justify-center ">
+    <div  style={{ height: "100dvh" }} className="w-full overflow-hidden relative bg-amber-100/50 flex flex-col items-center sm:justify-center ">
       <BackgroundImage />
       <NavBar />
-      <div className=" flex flex-col gap-1 items-center ">
+      <div className="flex flex-col gap-1 items-center mt-32 sm:mt-0">
         <h1 className="z-1 text-2xl sm:text-4xl md:text-5xl font-semibold sm:font-bold">
           I'm <span className="text-amber-400">Devansh Chandra</span>
         </h1>
@@ -45,7 +45,7 @@ const HomePage = () => {
           Full Stack Developer
         </p>
       </div>
-      <div className="w-3xs sm:w-xs relative flex flex-col items-center justify-center mt-4">
+      <div className="w-3xs sm:w-xs relative flex flex-col items-center justify-center mt-2">
         <div className="z-10 absolute w-2xs sm:w-sm top-[30%] sm:top-[5%] flex justify-between">
           <div className="shadow-lg bg-white p-2 rounded-full sm:rounded-md translate-x-[-10%] sm:translate-x-[-50%] sm:translate-y-[35%] md:translate-x-[-75%] h-fit">
             <Share2 className="sm:hidden" />
@@ -110,7 +110,7 @@ const HomePage = () => {
         />
         <div className="z-1 absolute top-[15%] md:top-[7%] h-65 w-65 md:h-75 md:w-75 bg-white/35 rounded-full"></div>
 
-        <div className=" shadow-amber-200 z-20 rounded-full bg-white w-64 sm:w-2xs  py-2 absolute top-[97%] flex justify-center">
+        <div className=" shadow-amber-200 z-20 rounded-full bg-white w-64 sm:w-2xs  py-2 absolute top-[95%] flex justify-center">
           <div className="absolute -z-10 -inset-2  bg-amber-200/80 blur-3xl rounded-full"></div>
           
           <button onClick={() => navigate("/projects")} className="flex items-center justify-center gap-2 w-[90%] bg-amber-400 px-4 py-2 rounded-full">
