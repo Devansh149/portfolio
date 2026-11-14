@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="min-h-screen relative bg-green-100/50 flex items-start sm:items-center justify-center">
       <BackgroundImage />
       <NavBar />
-      <div className="flex flex-col w-full max-w-5xl px-3 pt-20 md:pt-0  ">
+      <div className="flex flex-col w-full max-w-5xl px-3 pt-22 md:pt-0  ">
         <div className="flex gap-1 sm:justify-center items-center w-full ">
           <span className="text-green-600">•</span>
           <h2 className="text-gray-600 ">Let's Connect</h2>
@@ -45,7 +45,7 @@ const Contact = () => {
               </button>
           </div>
           <div>
-            <h3 className="text-green-500 text-lg">EMAIL</h3>
+            <h3 className="text-green-500 text-lg">Email</h3>
             <p className="text-gray-700 mb-3 sm:text-lg break-all">devanshchandra300@gmail.com</p>
             <div>
               <h3 className="text-green-500 text-lg mb-2">Connect</h3>
