@@ -37,7 +37,7 @@ const HomePage = () => {
     <div  style={{ height: "100dvh" }} className="w-full overflow-hidden relative bg-amber-100/50 flex flex-col items-center sm:justify-center ">
       <BackgroundImage />
       <NavBar />
-      <div className="flex flex-col gap-1 items-center mt-32 sm:mt-0">
+      <div className="flex flex-col gap-1 items-center mt-40 sm:mt-0">
         <h1 className="z-1 text-2xl sm:text-4xl md:text-5xl font-semibold sm:font-bold">
           I'm <span className="text-amber-400">Devansh Chandra</span>
         </h1>
