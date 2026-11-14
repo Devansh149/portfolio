@@ -34,7 +34,7 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div className="overflow-y-hidden h-screen bg-amber-100/50 flex flex-col items-center justify-center ">
+    <div className="overflow-hidden h-screen bg-amber-100/50 flex flex-col items-center justify-center ">
       <BackgroundImage />
       <NavBar />
       <div className=" flex flex-col gap-1 items-center ">
