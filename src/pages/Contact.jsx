@@ -3,10 +3,10 @@ import BackgroundImage from "../components/BackgroundImage";
 import NavBar from "../components/NavBar";
 const Contact = () => {
   return (
-    <div className="min-h-screen relative bg-green-100/50 flex items-center justify-center">
+    <div className="min-h-screen relative bg-green-100/50 flex items-start sm:items-center justify-center">
       <BackgroundImage />
       <NavBar />
-      <div className="flex flex-col w-full max-w-5xl px-3 pt-24 md:pt-0  ">
+      <div className="flex flex-col w-full max-w-5xl px-3 pt-20 md:pt-0  ">
         <div className="flex gap-1 sm:justify-center items-center w-full ">
           <span className="text-green-600">•</span>
           <h2 className="text-gray-600 ">Let's Connect</h2>
